@@ -1,6 +1,6 @@
 ---
 - name: configuring the apache server
-  hosts: localhost
+  hosts: playbook
   tasks:
     - name: installing the apach packages
       yum:
