@@ -1,6 +1,6 @@
 ---
 - name: configuring the apache server
-  hosts: playbook
+  hosts: cal
   tasks:
     - name: installing the apach packages
       apt:
