@@ -1,6 +1,7 @@
 ---
 - name: configuring the apache server
   hosts: cal
+  become: yes
   tasks:
     - name: installing the apach packages
       apt:
